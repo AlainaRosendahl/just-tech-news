@@ -6,13 +6,14 @@
     "scripts": {
       "test": "jest",
       "start": "node server.js",
-      "seeds": "node seeds/index.js",
-
-    "dependencies":
+      "seeds": "node seeds/index.js"
+    }
+    ,"dependencies": {
     "bcrypt": "^5.0.1",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "install": "^0.13.0",
     "mysql2": "^2.3.3",
-    "sequelize": "^6.20.1"},
+    "sequelize": "^6.20.1"}
+}
     
